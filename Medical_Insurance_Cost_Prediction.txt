@@ -1,0 +1,52 @@
+#Medical_Insurance_Cost_Prediction:
+#Problem_Statement
+--To know what can be the insurance cost for a patient from the data given data.
+#Workflow:
+--Collecting insurance cost data
+--Data Analysis (meaning the data says i.e what kind of data is, relationship, etc,)
+--Data pre processing (process the data to fed into model)
+--Split the data into training and testing data (Train-Test Split)
+--Fit the data into desired ML model(here we use Linear Regression Model)
+--Feed the new data into trained ML model and get the prediction
+
+#python_programming:
+
+**import the dependencies (required libraries)
+**data collection and pre processing
+  --load the data from csv file to pandas DataFrame
+  --print the first 5 rows of dataset
+  --get the number of rows and columns in the data
+  --get some information about the dataset like column_name, Non-Null_Count, Data_types
+**get the categorical features and numerical features
+**Check the missing values
+**Data Analysis using plots
+  --statistical measures of the dataset(count,mean,std,min,25%,50%,75%, max)
+  --distribution of any numerical column values through plots (using distribution plot)
+  --distribution of any categorical column values through plots (using count plot)
+  --count the number of values in the categorical colums
+**Data pre-processing:
+  --Encoding the categorical features(using replace function)
+**Splitting the dependent-features(X) and independent-features(y)(output feature)
+  --get the data's for X & y separately
+**Split the dataset into train and test data
+  --create 4 arrays (X_train, X_test, Y_train, Y_test)
+  --print the shape of train and test data
+**Model_Training
+  --Load the LinearRegression Model
+  --Fit the data to the model
+**Evaluate the Model
+  --Prediction on training data
+  --Performance metrics(r-square)
+  --Prediction on testing data
+  --Performance metrics(r-square)
+**Building predictive system
+  --Change the input tuple data to numpy array
+  --Reshape the array (1,-1)
+  --Get the prediction
+
+ 
+
+
+  
+
+
